@@ -3,4 +3,4 @@ import Game from "./Game";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Game />)
+root.render(<Game />);
