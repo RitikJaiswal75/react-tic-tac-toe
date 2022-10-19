@@ -4,9 +4,11 @@ on:
   push:
     branches: [main, develop]
 jobs:
-  steps:
-    - uses: actions/checkout@v2
-    - run: npm install
-    - run: npm run start_check
-    - run: npm run check
-    - run: npm run finish_check
+  Lint-Check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run start_check
+      - run: npm run check
+      - run: npm run finish_check
