@@ -14,7 +14,7 @@ Created a simple react app to play tic tac toe.
 
 ### Problems that might occur while commiting
 
-I have configured a pre-commit check that checks your code against a standard. 
+I have configured a pre-commit check that checks your code against a standard.
 If the code does not follow the standard you wont be able to commit your changes.
 
 This helps in avoiding any non-standard practices of writing code, makes the code more readable.
