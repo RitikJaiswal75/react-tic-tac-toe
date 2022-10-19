@@ -1,5 +1,3 @@
-name: pre-merge-checks
-run-name: ${{ github.actor }} is checking your code consistency
 on:
   pull:
     branches: [main, develop]
